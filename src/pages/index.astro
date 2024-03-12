@@ -1,0 +1,22 @@
+---
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout title="HOME">
+  <div class="container">
+    <div class="swiper">
+      <ul class="swiper-wrapper">
+        {
+          Array.from({ length: 5 }).map((_, i) => (
+            <li class={`swiper-slide slide-${i + 1}`}>
+              <figure>
+                <div class="image-wrapper" />
+                <p>{`SLIDE 0${i + 1}`}</p>
+              </figure>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</Layout>

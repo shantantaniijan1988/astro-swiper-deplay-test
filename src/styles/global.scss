@@ -1,0 +1,35 @@
+@use "./variables" as *;
+@use "./colors" as *;
+@use "./mixins" as *;
+@use "./svg" as *;
+@use "./reset";
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 40px;
+}
+
+.swiper {
+  .image-wrapper {
+    aspect-ratio: 4/3;
+    border: 1px solid $color-black;
+  }
+}
+
+figure {
+  position: relative;
+}
+
+p {
+  font-size: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+}

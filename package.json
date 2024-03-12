@@ -1,0 +1,21 @@
+{
+  "name": "astro-swiper-deploy-test",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.7",
+    "astro": "^4.5.2",
+    "swiper": "^11.0.7",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}
